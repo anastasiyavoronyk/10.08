@@ -1,3 +1,8 @@
+table, td {
+    border:none;
+    border-spacing: 0;
+    padding: 0;
+}
 p {
     margin: 0;
     padding: 0;
@@ -106,93 +111,46 @@ h2 {
     text-align: center;
     color: #484848;
 }
-.buttons {
-    height: 110px;
+.pricing-table-buttons {
     box-shadow: inset -3px 0px 6px -3px rgb(0 0 0 / 27%);
 }
-.button--gray {
+.button {
     display: inline-block;
-    padding: 19px 44px 17px 45px;
     text-decoration: none;
-    background: #484848;
-    border-bottom: solid 7px #404040;
     border-radius: 7px;
     font-family: Arimo;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 700;
     color: #fff;
     box-shadow: 0 5px 10px rgba(0,0,0,0.5);
     text-shadow: 0 2px 5px black;
-  }
-  .button--gray:active {
+    margin: 32px 0 29px;
+}
+.button:active {
     transition: 1s;
     transform: translateY(4px);
     box-shadow: 0px 0px 1px rgba(23, 23, 23, 0.2);
     border-bottom: none;
+  }
+.button--gray {
+    padding: 19px 44px 17px 45px;
+    background: #484848;
+    border-bottom: solid 7px #404040; 
   }
   .button--lime {
-    display: inline-block;
     padding: 19px 57px 17px 58px;
-    text-decoration: none;
     background: #89c331;
     border-bottom: solid 7px #79b027;
-    border-radius: 7px;
-    font-family: Arimo;
-    font-size: 16px;
-    font-weight: bold;
-    color: #fff;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
-    text-shadow: 0 2px 5px black;
-  }
-  .button--lime:active {
-    transition: 1s;
-    transform: translateY(4px);
-    box-shadow: 0px 0px 1px rgba(23, 23, 23, 0.2);
-    border-bottom: none;
   }
   .button--red {
-    display: inline-block;
     padding: 19px 57px 17px 58px;
-    text-decoration: none;
     background: #f04a56;
     border-bottom: solid 7px #df3a46;
-    border-radius: 7px;
-    font-family: Arimo;
-    font-size: 16px;
-    font-weight: bold;
-    color: #fff;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
-    text-shadow: 0 2px 5px black;
-  }
-  .button--red:active {
-    transition: 1s;
-    transform: translateY(4px);
-    box-shadow: 0px 0px 1px rgba(23, 23, 23, 0.2);
-    border-bottom: none;
   }
   .button--jade {
-    display: inline-block;
     padding: 19px 57px 17px 58px;
-    text-decoration: none;
     background: #20807c;
     border-bottom: solid 7px #16736f;
-    border-radius: 7px;
-    font-family: Arimo;
-    font-size: 16px;
-    font-weight: bold;
-    color: #fff;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
-    text-shadow: 0 2px 5px black;
   }
-  .button--jade:active {
-    transition: 1s;
-    transform: translateY(4px);
-    box-shadow: 0px 0px 4px rgba(23, 23, 23, 0.2);
-    border-bottom: none;
-  }
-  table, td {
-    border:none;
-    border-spacing: 0;
-    padding: 0;
-}
+
   
