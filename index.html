@@ -17,59 +17,46 @@
     >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <table class="pricing-table-box">
         <thead>
         <tr>
-            <td class="pricing-table-box-text">
+            <th rowspan="2" class="pricing-table-header">
                 <h3> CHOOSE YOUR</h3>
                 <h2>PRICING PLAN</h2>
+            </th>
+            <th class="pricing-table-header-color pricing-table-header--lime">STANDART</th>
+            <th class="pricing-table-header-color pricing-table-header--red">ULTIMATE</th>
+            <th class="pricing-table-header-color pricing-table-header--jade">PREMIUM</th>
+        </tr>
+        <tr>
+            <td class="pricing-table-box-item">
+                <p class="dollars">$17</p>
+                <p class="cent">.99</p>
+                <p class="time">PER MONTH</p>
             </td>
-            <td>
-                <div class="pricing-table-box-item">
-                    <div class="pricing-table-box-item-head-color1">
-                        <p>STANDART</p>
-                    </div>
-                    <div class="pricing-table-box-item-price">
-                        <p class="dollars">$17</p>
-                        <p class="cent">.99</p>
-                        <p class="time">PER MONTH</p>
-                    </div>
-                </div>
+            <td class="pricing-table-box-item">
+                <p class="dollars">$37</p>
+                <p class="cent">.99</p>
+                <p class="time">PER MONTH</p>
             </td>
-            <td>
-                <div class="pricing-table-box-item">
-                    <div class="pricing-table-box-item-head-color2">
-                        <p>ULTIMATE</p>
-                    </div>
-                    <div class="pricing-table-box-item-price">
-                        <p class="dollars">$37</p>
-                        <p class="cent">.99</p>
-                        <p class="time">PER MONTH</p>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="pricing-table-box-item1">
-                    <div class="pricing-table-box-item-head-color3">
-                        <p>PREMIUM</p>
-                    </div>
-                    <div class="pricing-table-box-item-price">
-                        <p class="dollars">$97</p>
-                        <p class="cent">.99</p>
-                        <p class="time">PER MONTH</p>
-                    </div>
-                </div>
+            <td class="pricing-table-box-item1">
+                <p class="dollars">$97</p>
+                <p class="cent">.99</p>
+                <p class="time">PER MONTH</p>
             </td>
         </tr>
         </thead>
         <tbody>
             <tr class="pricing-table-box-list">
-                <td class="first-row">
-                    <img src="1.png" alt="STORAGE">
-                    <p>STORAGE</p>
+                <td class="first-row"> 
+                    <p>
+                        <i class="fa fa-archive  fa-lg"> </i>
+                        STORAGE
+                    </p>
                 </td>
                 <td class="second-row">500GB STORAGE</td>
                 <td class="third-row">1000GB STORAGE</td>
@@ -77,16 +64,20 @@
             </tr>
             <tr class="pricing-table-box-list">
                 <td class="first-row">
-                    <img src="2.png" alt="BANDWIDTH">
-                    <p>BANDWIDTH</p>
+                    <p>
+                        <i class="fa fa-cloud-upload fa-lg"></i>
+                        BANDWIDTH
+                    </p>
                 </td>
                 <td class="second-row" colspan="2">LIMITED</td>
                 <td class="fourth-row">UNLIMITED</td>
             </tr>
             <tr class="pricing-table-box-list">
                 <td class="first-row">
-                    <img src="3.png" alt="EMAIL">
-                    <p>EMAIL</p>
+                    <p>
+                        <i class="fa fa-envelope fa-lg"></i>
+                        EMAIL
+                    </p>
                 </td>
                 <td class="second-row">25 EMAILS</td>
                 <td class="third-row">45 EMAILS</td>
@@ -94,15 +85,19 @@
             </tr>
             <tr class="pricing-table-box-list">
                 <td class="first-row">
-                    <img src="4.png" alt="SUPPORT">
-                    <p>SUPPORT</p> 
+                    <p>
+                        <i class="fa fa-life-ring fa-lg"></i>
+                        SUPPORT
+                    </p> 
                 </td>
                 <td class="fourth-row" colspan="3">24/7 SUPPORT</td>
             </tr>
             <tr class="pricing-table-box-list">
                 <td class="first-row">
-                    <img src="5.png" alt="PRODUCTS">
-                    <p>PRODUCTS</p>
+                    <p>
+                        <i class="fa fa-cube fa-lg"></i>
+                        PRODUCTS
+                    </p>
                 </td>
                 <td class="second-row">20 PRODUCTS</td>
                 <td class="third-row">30 PRODUCTS</td>
@@ -110,8 +105,10 @@
             </tr>
             <tr class="pricing-table-box-list">
                 <td class="first-row">
-                    <img src="6.png" alt="USERS">
-                    <p>USERS</p> 
+                    <p>
+                        <i class="fa fa-users fa-lg"></i>
+                        USERS
+                    </p> 
                 </td>
                 <td class="second-row">1 USER</td>
                 <td class="third-row">10 USERS</td>
@@ -119,16 +116,16 @@
             </tr>
             <tr class="pricing-table-box-list">
                 <td class="buttons">
-                    <a href="#" class="button1">CONTACT US</a>
+                    <a href="#" class="button--gray">CONTACT US</a>
                 </td>
                 <td class="buttons">
-                    <a href="#" class="button2">BUY NOW</a>
+                    <a href="#" class="button--lime">BUY NOW</a>
                 </td>
                 <td class="buttons">
-                    <a href="#" class="button3">BUY NOW</a>
+                    <a href="#" class="button--red">BUY NOW</a>
                 </td>
                 <td class="buttons4">
-                    <a href="#" class="button4">BUY NOW</a>
+                    <a href="#" class="button--jade">BUY NOW</a>
                 </td>
             </tr>
         </tbody>

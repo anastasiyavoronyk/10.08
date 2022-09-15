@@ -11,14 +11,13 @@ p {
 table {
     margin: auto;
 }
-.pricing-table-box-list {
-    font-family: Arimo;
-    font-size: 16px;
-    text-align: center;
-    color: #484848;
+i {
+    margin-right: 14px;
+    color: #848484;
 }
+
 .first-row {
-    height: 69px;
+    padding: 25px 0 25px;
     box-shadow: inset -3px 0px 6px -3px rgb(0 0 0 / 27%);
 }
 .second-row {
@@ -36,45 +35,44 @@ table {
 thead {
     background-color: #fafafa;
 }
-.pricing-table-box-text {
-    font-family: Arimo;
-    text-align: center;
-    color: #484848;
-    font-weight: bold;
-    line-height: 0.93;
-    box-shadow: inset -3px 0px 6px -3px rgb(0 0 0 / 27%);
-}
 h3 {
     font-size: 18px;
-    margin: 0;
-    margin-bottom: 10px;
-    margin-top: 44px;
+    margin: 49px 0 10px;
 }
 h2 {
     font-size: 30px;
-    margin: 0 49px 46px 49px;
+    margin: 0 48px 51px 48px;
 }
 .pricing-table-box-item{
-    width: 277px;
-    height: 156px;
     box-shadow: inset -3px 0px 6px -3px rgb(0 0 0 / 27%);
-}
-.pricing-table-box-item1{
-    width: 277px;
-    height: 156px;
 }
 .pricing-table-box-item-price {
     padding: 9px 0 9px 0;
 }
-.pricing-table-box-item-head-color1 {
-    display: block;
-    font-family: Arimo;
+.pricing-table-header {
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    color: #484848;
+    font-weight: 700;
+    line-height: 0.93;
+    box-shadow: inset -3px 0px 6px -3px rgb(0 0 0 / 27%);
+}
+.pricing-table-header-color{
+    font-family: 'Arimo', sans-serif;
     text-align: center;
     color: #fff;
     font-size: 24px;
-    font-weight: bold;
-    background-color: #89c331;
+    font-weight: 700;
     padding: 21px 0 21px 0;
+}
+.pricing-table-header--lime {
+    background-color: #89c331;
+}
+.pricing-table-header--red {
+    background-color: #f04a56;
+}
+.pricing-table-header--jade {
+    background-color: #20807c;
 }
 .dollars {
     font-family: Arimo;
@@ -102,109 +100,94 @@ h2 {
     top: 40px;
     left: -30px;
 }
-.pricing-table-box-item-head-color2 {
-    display: block;
+.pricing-table-box-list {
     font-family: Arimo;
+    font-size: 16px;
     text-align: center;
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-    background-color: #f04a56;
-    padding: 21px 0 21px 0;
-}
-.pricing-table-box-item-head-color3 {
-    display: block;
-    font-family: Arimo;
-    text-align: center;
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-    background-color: #20807c;
-    padding: 21px 0 21px 0;
-}
-img {
-    position: relative;
-    top: 4px;
-    left: -5px;
+    color: #484848;
 }
 .buttons {
     height: 110px;
     box-shadow: inset -3px 0px 6px -3px rgb(0 0 0 / 27%);
 }
-.button1 {
+.button--gray {
     display: inline-block;
     padding: 19px 44px 17px 45px;
     text-decoration: none;
     background: #484848;
-    border-bottom: solid 4px #404040;
+    border-bottom: solid 7px #404040;
     border-radius: 7px;
     font-family: Arimo;
     font-size: 16px;
     font-weight: bold;
     color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    text-shadow: 0 2px 5px black;
   }
-  .button1:active {
-    -ms-transform: translateY(4px);
-    -webkit-transform: translateY(4px);
+  .button--gray:active {
+    transition: 1s;
     transform: translateY(4px);
     box-shadow: 0px 0px 1px rgba(23, 23, 23, 0.2);
     border-bottom: none;
   }
-  .button2 {
+  .button--lime {
     display: inline-block;
     padding: 19px 57px 17px 58px;
     text-decoration: none;
     background: #89c331;
-    border-bottom: solid 4px #79b027;
+    border-bottom: solid 7px #79b027;
     border-radius: 7px;
     font-family: Arimo;
     font-size: 16px;
     font-weight: bold;
     color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    text-shadow: 0 2px 5px black;
   }
-  .button2:active {
-    -ms-transform: translateY(4px);
-    -webkit-transform: translateY(4px);
+  .button--lime:active {
+    transition: 1s;
     transform: translateY(4px);
     box-shadow: 0px 0px 1px rgba(23, 23, 23, 0.2);
     border-bottom: none;
   }
-  .button3 {
+  .button--red {
     display: inline-block;
     padding: 19px 57px 17px 58px;
     text-decoration: none;
     background: #f04a56;
-    border-bottom: solid 4px #df3a46;
+    border-bottom: solid 7px #df3a46;
     border-radius: 7px;
     font-family: Arimo;
     font-size: 16px;
     font-weight: bold;
     color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    text-shadow: 0 2px 5px black;
   }
-  .button3:active {
-    -ms-transform: translateY(4px);
-    -webkit-transform: translateY(4px);
+  .button--red:active {
+    transition: 1s;
     transform: translateY(4px);
     box-shadow: 0px 0px 1px rgba(23, 23, 23, 0.2);
     border-bottom: none;
   }
-  .button4 {
+  .button--jade {
     display: inline-block;
     padding: 19px 57px 17px 58px;
     text-decoration: none;
     background: #20807c;
-    border-bottom: solid 4px #16736f;
+    border-bottom: solid 7px #16736f;
     border-radius: 7px;
     font-family: Arimo;
     font-size: 16px;
     font-weight: bold;
     color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    text-shadow: 0 2px 5px black;
   }
-  .button4:active {
-    -ms-transform: translateY(4px);
-    -webkit-transform: translateY(4px);
+  .button--jade:active {
+    transition: 1s;
     transform: translateY(4px);
-    box-shadow: 0px 0px 1px rgba(23, 23, 23, 0.2);
+    box-shadow: 0px 0px 4px rgba(23, 23, 23, 0.2);
     border-bottom: none;
   }
   table, td {
